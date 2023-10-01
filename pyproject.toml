@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "webhw9"
+version = "0.1.0"
+description = ""
+authors = ["Anton Kalchenko  <anton11042002@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.31.0"
+mongoengine = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
